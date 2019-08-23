@@ -1,0 +1,19 @@
+{
+  "name": "ryan-proxy",
+  "version": "1.0.0",
+  "description": "Ryan-proxy server for front end capstone (FEC) project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apex-rpt15/ryan-proxy.git"
+  },
+  "author": "Ryan Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apex-rpt15/ryan-proxy/issues"
+  },
+  "homepage": "https://github.com/apex-rpt15/ryan-proxy#readme"
+}
