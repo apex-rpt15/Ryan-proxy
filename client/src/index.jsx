@@ -8,7 +8,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>hello from 3000</div>
+      <div>react on proxy server </div>
     )
   }
 }
