@@ -1,52 +1,54 @@
 <!DOCTYPE html>
 
 <html>
-
 <head>
 </head>
-
 <body>
   <div style='margin-left: 55px; margin-right: 55px; background-color: f2f2f2'>
     <div><img style='position:fixed; left:0px; top:0px; height: 50px; z-index: 500'
         src='https://hackreactor-fec-project.s3-us-west-1.amazonaws.com/TopBar-placeholder'></div>
     <div style='margin-top: 50px'>
       <div id='3000'></div>
-      <div id='3001'></div>
-      <div id='placeholder-images; width: 100%' style='display:inline-block'>
-        <div style='display:inline-block;'>
-          <div style='display:inline-block'>
-            <img style='max-width: 900px;height: 100px; top: 100%'
-              src='https://hackreactor-fec-project.s3-us-west-1.amazonaws.com/PostComment-placeholder'>
-          </div style='display:inline-block; width: 100%;'>
-          <div style='display:inline-block'>
-            <img style='width: 120px;height: 250px;display:inline-block'
-              src='https://hackreactor-fec-project.s3-us-west-1.amazonaws.com/LeftBar-placeholder'>
-            <div style='float:right; white-space: nowrap'>
-              <img style='height: 250px;max-width: 900px'
-                src='https://hackreactor-fec-project.s3-us-west-1.amazonaws.com/SongDetail-placeholder'>
-              <div id='main'></div>
-            </div>
-          </div>
-        </div>
-        <div style='top: 100%; float:right; white-space:nowrap'>
-          <img style='width:300px; display:block'
-            src='https://hackreactor-fec-project.s3-us-west-1.amazonaws.com/RelatedTracks-placeholder'>
-          <img style='width:300px; display: block'
-            src='https://hackreactor-fec-project.s3-us-west-1.amazonaws.com/InPlaylistsLikesReposts-placeholder'>
-        </div>
-
-
+      <div id='topTrackPlayer'></div>
+      <div id='placeholder-images' style='display:inline-block; width: 100%'>
+        <Table>
+          <tr>
+            <td>
+              <div style='top: 100%; display:inline-block;'>
+                <div style='display:inline-block'>
+                  <img style='max-width: 900px;height: 100px; top: 100%'
+                    src='https://hackreactor-fec-project.s3-us-west-1.amazonaws.com/PostComment-placeholder'>
+                </div>
+                <div style='display:inline-block'>
+                  <img style='width: 150px;height: 250px;display:inline-block'
+                    src='https://hackreactor-fec-project.s3-us-west-1.amazonaws.com/LeftBar-placeholder'>
+                  <div style='float:right; white-space: nowrap'>
+                    <img style='height: 250px;max-width: 900px'
+                      src='https://hackreactor-fec-project.s3-us-west-1.amazonaws.com/SongDetail-placeholder'>
+                    <div id='main'></div>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div style='top: 100%; float:right; white-space:nowrap'>
+                <img style='width:300px'
+                  src='https://hackreactor-fec-project.s3-us-west-1.amazonaws.com/RelatedTracks-placeholder'>
+                <img style='width:300px; display: block'
+                  src='https://hackreactor-fec-project.s3-us-west-1.amazonaws.com/InPlaylistsLikesReposts-placeholder'>
+              </div>
+            </td>
+          </tr>
+        </Table>
       </div>
-
-      <div id='3003'></div>
-      <div style='position:fixed;left:0px; bottom:0px;width:100%;height:50px' id='bottomPlayer'></div>
+      <div style='position:fixed; left:0px; bottom:0px; width:100%; height:50px' id='bottomPlayer'></div>
     </div>
   </div>
-  <!-- <script type='text/javascript' src='http://localhost:3004/bundle.js'></script> -->
+
 
   <script type='text/javascript' src='/scripts/ryan/bundle.js'></script>
   <script type='text/javascript' src='/scripts/zack/bundle.js'></script>
-  <!-- <script type='text/javascript' src='/scripts/alastair/bundle.js'></script> -->
+  <script type='text/javascript' src='/scripts/alastair/bundle.js'></script>
 </body>
 
 </html>
