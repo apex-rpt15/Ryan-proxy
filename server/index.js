@@ -1,11 +1,11 @@
 const express = require('express');
-const proxy = require('http-proxy-middleware');
+const compression = require('compression');
 
 const app = express();
 const bodyParser = require('body-parser');
 const request = require('request');
 
-
+app.use(compression());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }))
 
