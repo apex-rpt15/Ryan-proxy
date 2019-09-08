@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 let commentsUrl = 'http://ec2-54-245-205-70.us-west-2.compute.amazonaws.com:3002'
 let bottomPlayerUrl = 'http://ec2-13-57-29-242.us-west-1.compute.amazonaws.com'
-let topPlayerUrl = 'http://localhost:3001'
+let topPlayerUrl = 'http://ec2-3-14-130-218.us-east-2.compute.amazonaws.com'
 
 //express middleware for scripts within index.html of proxy
 app.use('/scripts/:service/bundle.js', (req, res) => {
