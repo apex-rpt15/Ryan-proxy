@@ -30,42 +30,56 @@
   grid-area: leftBar;
 }
 
+#leftBarImg {
+  height: auto;
+  width: auto;
+}
+
 #relatedTracks {
-  zoom: 50%;
+  zoom: 45%;
   width: 100%;
   grid-area: relatedTracks;
 }
+#relatedTracksImg {
+  height: auto;
+  width: auto;
+}
 
 #inPlaylists {
-  zoom: 50%;
+  zoom: 45%;
   width: 100%;
   grid-area: inPlaylists;
 }
+#inPlaylistsImg {
+  height: auto;
+  width: auto;
+}
 
 #songDetail {
-  zoom: 50%;
+  zoom: 45%;
   width: 100%;
   grid-area: songDetail;
 }
 
+#songDetailImg {
+  height: auto;
+  width: auto;
+}
+
 #postComment {
-  zoom: 50%;
+  zoom: 45%;
   width: 100%;
   grid-area: postComment;
 }
 
-#line {
-  width: 100%;
-  grid-area: line;
-
-}
-
 #gridArea {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  display: grid;
+  width: 1340;
   grid-template-columns: 190px 759px 1px 390px;
   grid-template-rows: 125px 160px auto;
   grid-template-areas: 
-    "postComment postComment line relatedTracks"
-    "leftBar songDetail line inPlaylists"
-    "leftBar comments line inPlaylists";
+    "postComment postComment . relatedTracks"
+    "leftBar songDetail . relatedTracks"
+    "leftBar comments . inPlaylists";
 }
